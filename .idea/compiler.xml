@@ -11,5 +11,11 @@
         <module name="server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api" target="1.5" />
+      <module name="authAccess" target="1.5" />
+      <module name="model" target="1.5" />
+      <module name="server" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
