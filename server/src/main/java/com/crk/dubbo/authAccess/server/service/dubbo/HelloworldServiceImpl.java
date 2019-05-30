@@ -1,6 +1,7 @@
 package com.crk.dubbo.authAccess.server.service.dubbo;
 import com.alibaba.dubbo.config.annotation.Service;
-import com.crk.dubbo.api.service.HelloworldService;
+import com.crk.dubbo.authAccess.api.service.HelloworldService;
+;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
@@ -16,7 +17,7 @@ import javax.ws.rs.core.MediaType;
  */
 @Service(protocol = {"dubbo","rest"},validation = "true",version = "1.0",timeout = 3000)
 @Path("helloworld")
-public class HelloworldServiceImpl implements HelloworldService{
+public class HelloworldServiceImpl implements HelloworldService {
     /**
      * 简单的helloworld
      *
