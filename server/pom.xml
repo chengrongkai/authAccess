@@ -20,7 +20,7 @@
         <druid.version>1.0.16</druid.version>
         <mysql.version>5.1.37</mysql.version>
         <!--dubbo版本-->
-        <dubbo.version>2.6.6</dubbo.version>
+        <dubbo.version>2.6.12</dubbo.version>
         <resteasy.version>3.0.7.Final</resteasy.version>
         <zookeeper.version>3.4.10</zookeeper.version>
         <curator.version>2.12.0</curator.version>
